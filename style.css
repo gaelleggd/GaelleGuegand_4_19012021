@@ -1059,6 +1059,15 @@ button{
     .hero {
         padding: 50px 0;
     }
+
+    .hero-bloc-text {
+        font-size: 38px;
+    }
+    
+    .hero-bloc-text-sub {
+        font-size: 36px;
+    }    
+
     .hero-nav {
         left: -1px;
         right: -1px;
