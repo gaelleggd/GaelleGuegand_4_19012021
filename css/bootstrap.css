@@ -1435,9 +1435,10 @@ img {
 .img-responsive,
 .thumbnail a>img,
 .thumbnail>img {
-    display: block;
     max-width: 100%;
-    height: auto
+    height: auto;
+    display: block;
+    margin: auto;
 }
 
 .img-rounded {
@@ -2010,10 +2011,10 @@ pre code {
     margin-left: auto
 }
 
-.row {
+/* .row {
     margin-right: -15px;
     margin-left: -15px
-}
+} */
 
 .col-lg-1,
 .col-lg-10,
@@ -2045,7 +2046,7 @@ pre code {
 .col-sm-12,
 .col-sm-2,
 .col-sm-3,
-.col-sm-4,
+/* .col-sm-4, */
 .col-sm-5,
 .col-sm-6,
 .col-sm-7,
@@ -4224,7 +4225,8 @@ fieldset[disabled] .btn-link:hover {
 
 .btn-block {
     display: block;
-    width: 100%
+    /* width: 30%; */
+    margin: auto;
 }
 
 .btn-block+.btn-block {
@@ -4373,7 +4375,7 @@ tbody.collapse.in {
     cursor: not-allowed;
     background-color: transparent;
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false)
+    /* filter: progid:DXImageTransform.Microsoft.gradient(enabled=false); */
 }
 
 .open>.dropdown-menu {
@@ -5124,7 +5126,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     max-height: 340px
 }
 
-@media (max-device-width:480px) and (orientation:landscape) {
+@media (max-width:480px) and (orientation:landscape) {
     .navbar-fixed-bottom .navbar-collapse,
     .navbar-fixed-top .navbar-collapse {
         max-height: 200px
